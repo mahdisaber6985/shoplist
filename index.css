@@ -1,0 +1,209 @@
+@font-face {
+  font-family: kodak;
+  src: url("./BKoodakBold_0.ttf");
+}
+
+* {
+  font-family: kodak;
+}
+#shoplist {
+  background-color: blue;
+  width: 500px;
+  height: 500px;
+}
+.doneitem {
+  width: 30PX;
+  margin-top: 0px;
+  border-radius: 19px;
+  text-decoration: line-through;
+  color: rgb(81, 231, 231);
+}
+body {
+  background-color: #d5ebea;
+}
+.input {
+  background-color: #c9e8de;
+  width: 180px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.btn {
+  background-color: #008080;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 200px;
+}
+.box1 {
+  background-color: rgb(247, 246, 244);
+  display: block;
+  height: 280px;
+  width: 400px;
+  margin-left: 450px;
+  text-align: right;
+}
+.list {
+  background-color: rgb(248, 246, 242);
+  display: block;
+  margin-top: 20;
+  margin-left: -10px;
+  width: 390px;
+  text-align: right;
+}
+
+.box3 {
+  background-color: #cfeae4;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 0px 1px 2px 2px #888888;
+  margin-left: 450px;
+  width: 374px;
+  height: fit-content;
+  margin-top: 10px;
+  text-align: right;
+}
+.box5 {
+  display: inline;
+}
+.box6 {
+  display: inline;
+}
+.box7 {
+  display: inline;
+  
+  
+}
+.box8 {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.item {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0px;
+}
+.button {
+  margin-top: 15px;
+  margin-right: 0px;
+  width: 250px;
+}
+.qeymat {
+  margin-left: 80px;
+  margin-top: 20px;
+
+}
+.asli {
+  display: flex;
+  flex-direction: row;
+  width: 450px;
+  margin-left: -90px;
+
+}
+.price {
+  margin-left: 40px;
+}
+.name {
+  margin-top: 14.5px;
+}
+.khali {
+  background-color: #188a8a;
+  width: 395px;
+  height: 5px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
+.list {
+  margin-top: 1px;
+}
+.khalibala {
+  background-color: #188a8a;
+  width: 400px;
+  height: 9px;
+  margin-left: 450px;
+  margin-top: 0px;
+}
+
+.input {
+  margin-right: 120px;
+  width: 260px;
+  height: 20px;
+}
+.prodname {
+  display: flex;
+
+
+}
+.prodnamelabel {
+  width: 90px;
+  margin-right: 10px;
+}
+ 
+.inputlabble{
+
+  width: 200px;
+  margin-top: -21px;
+}
+
+#productunitprice{
+
+  width: 190px;
+  margin-left: 20px;
+  margin-top: 0px;
+  height: 20px;
+}
+.prodnumberlable{
+width:108px ;
+}
+.inputlabble{
+  margin-top: 0;
+}
+.productunitprice{
+  background-color: #c9e8de;
+}
+
+.search{
+  background-color:#c9e8de ;
+  width: 195px;
+  margin-left: 20px;
+  height:20px;
+}
+.searchlable{
+  width: 210px;
+}
+
+.btnlable{
+  background-color: #008080;
+  width: 150px;
+  border-radius: 3px;
+  border: none;
+  margin-right: 220px;
+  margin-top: 25px;
+  font-size: larger;
+  color: white;
+}
+
+.checkbox{
+  accent-color: #000;
+}
+.donediv{
+  margin-top: -30px;
+  display: flex;
+  justify-content: space-between;
+  width: 374px;
+}
+.lengthnum{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  background-color: #008080;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>shoplist</title>
+</head>
+<body>
+    <div class="khalibala"></div>
+<div class="box1">
+      <div class='prodname'>
+            <input id="productname" class="input" onchange="updateInput()" onkeydown="if (event.keyCode === 13)
+            document.getElementById('productcopmlete');"/>
+           <label class='prodnamelabel'>نام محصول </label>
+       </div>
+          <br>
+    
+        <div class="prodname">
+         <input id="productnumber" class="input" type="number"/>
+         <label class="prodnumberlable" >تعداد محصول</label>
+       </div>
+  
+        <br>
+      <div class="prodname">
+         <input id="productunitprice"  class="productunitprice"  type="number" onclick="btnonclick()"/>
+         <label class="inputlabble"> قیمت واحد محصول</label>
+      </div>
+     
+        <br>
+
+      <div class="prodname">
+        <input type="text" id="inpsearch" class="search" oninput="updateInput()"/>
+        <label  class="searchlable" > جست و جوی کالا </label>
+      </div>
+      
+
+     <button id="productcopmlete" class="btnlable" onclick="updateproductcopmlete()" > تایید </button>
+     
+</div>
+  
+  
+  
+     <div  class="box3">
+      <div class="khali"></div>
+      <h2 class="list">لیست خرید</h2>
+      <div class='donediv'>
+        <p class="lengthnum" id="array">0</p>
+        <p >انجام شده</p>
+      </div>
+      <div class='donediv'>
+        <p class="lengthnum" id="notarray" >0</p>
+        <p>انجام نشده</p>
+      </div>
+                  <div class="box8">
+                    <div class="qeymat">
+                      <h4 class="box7"> قیمت کل</h4>
+                      
+                    </div>
+                      <h4 class="box6">تعداد </h4>
+                      <h4 class="box5"> نام محصول </h4> 
+                      
+                    </div>
+                    
+                    <div id="domoshoplist">
+                    
+                    
+    </div> 
+
+
+    </div>
+
+
+</body>
+<script src="index.js"></script>
+</html>
